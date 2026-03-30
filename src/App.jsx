@@ -1,6 +1,5 @@
 /* eslint-disable */
 import React, { useState } from "react";
-// import { useState } from 'react'
 import { InputBox } from "./components";
 import useCurrencyInfo from "./hooks/useCurrencyInfo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,7 +29,7 @@ function App() {
   };
   return (
     <>
-      <div
+      < div data-aos="fade-up"
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
           backgroundImage: `url('https://img.freepik.com/free-vector/gradient-stock-market-concept_52683-76908.jpg')`,
