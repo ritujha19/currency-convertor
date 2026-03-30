@@ -29,7 +29,7 @@ function App() {
   };
   return (
     <>
-      < div data-aos="fade-up"
+      < div 
         className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
         style={{
           backgroundImage: `url('https://img.freepik.com/free-vector/gradient-stock-market-concept_52683-76908.jpg')`,
